@@ -156,7 +156,7 @@ namespace DriverAPI.Controllers
         {
             List<string> names = new List<string>();
             foreach(var driver in drivers)
-            {
+            { 
                 string fName = driver.FirstName.ToLower();
                 string lName = driver.LastName.ToLower();
 
